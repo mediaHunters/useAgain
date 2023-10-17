@@ -1,0 +1,53 @@
+STRONA GŁÓWNA:
+- O nas
+- Regranulacja
+- Wtryskownia
+- Kontakt
+
+O NAS:
+Opis firmy oraz historia firmy z ekobasket.pl
+
+REGRANULACJA:
+Opis regranulacji pochodzący z broszury, uzupełniony o informacje ze strony useagain.pl. 
+Na dole podstrony znajdują się pięć pionowych pól dla różnych rodzajów tworzyw:
+
+1. PCABS
+2. ABS
+3. PP
+4. HDPE
+5. PE
+
+Pod każdym z tych rodzajów tworzyw podano dostępne zakresy parametrów:
+
+- MFI (od - do)
+- Barwa:
+  - Transparentny
+  - Biały
+  - Szary
+  - Czarny
+- Przeznaczenie:
+  - Wytłoczenie
+  - Wtrysk
+
+WTRYSKOWNIA:
+Opis z broszury uzupełniony ze strony ekobasket.pl
+ na dole adnotacja dotycząca dostępnego parku maszynowego:
+
++-------------+--------------------------+----------+---------+---------------------+-------------------------+-------------------------------+
+| TYP MASZYNY | MASZYN DOSTĘPNYCH (szt.) | SIŁA ZWARCIA (ton) | ROZSTAW KOLUMN (mm) | MINIMALNA WYSOKOŚĆ (mm) | MAKSYMALNY ROZJAZD STOŁU (mm) |
++-------------+--------------------------+----------+---------+---------------------+-------------------------+-------------------------------+
+| FT160 (2)   | 2                        | 160T               | 450x450             | 200                     | 860                           |
+| FT220 (3)   | 3                        | 220T               | 510x510             | 250                     | 900                           |
+| ARB 420 (2) | 2                        | 80T                | 420x420             | 250                     | 750                           |
+| ARB 470 (2) | 2                        | 130T               | 470x470             | 250                     | 900                           |
+| ARB 570 (4) | 4                        | 200T               | 570x570             | 300                     | 950                           |
+| KM110 (2)   | 2                        | 110T               | 470x470             | 300                     | 900                           |
+| CHS 258 (1) | 1                        | 250T               | 580x580             | 190                     | 1140                          |
+| CHS 328 (1) | 1                        | 320T               | 680x680             | 225                     | 1340                          |
++-------------+--------------------------+--------------------+---------------------+-------------------------+-------------------------------+
+
+KONTAKT:
+
+opis i dane z broszurki
+
+odniesienie do google maps

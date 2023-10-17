@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+
+    <title>UseAgain</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet" />
+    <link href="assets/css/flaticon.css" rel="stylesheet" />
+    <link href="assets/css/owl.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/nice-select.css" rel="stylesheet" />
+    <link href="assets/css/elpath.css" rel="stylesheet" />
+    <link
+      href="assets/css/color/theme-color.css"
+      id="jssDefault"
+      rel="stylesheet"
+    />
+    <link href="assets/css/switcher-style.css" rel="stylesheet" />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/module-css/page-title.css" rel="stylesheet" />
+    <link href="assets/css/module-css/contact.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <!-- page wrapper -->
+  <body>
+    <div class="boxed_wrapper ltr">
+      <!-- preloader -->
+      <div class="loader-wrap">
+        <div class="preloader">
+          <div class="preloader-close"><i class="fas fa-times"></i></div>
+          <div id="handle-preloader" class="handle-preloader">
+            <div class="animation-preloader">
+              <div class="spinner"></div>
+              <div class="txt-loading">
+                <span data-text-preloader="u" class="letters-loading"> u </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
+                <span data-text-preloader="e" class="letters-loading"> e </span>
+                <span data-text-preloader="A" class="letters-loading"> A </span>
+                <span data-text-preloader="g" class="letters-loading"> g </span>
+                <span data-text-preloader="a" class="letters-loading"> a </span>
+                <span data-text-preloader="i" class="letters-loading"> i </span>
+                <span data-text-preloader="n" class="letters-loading"> n </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- preloader end -->
+
+      <!-- switcher menu -->
+      <div class="switcher">
+        <div class="switch_menu">
+          <!-- color changer -->
+          <div class="switcher_container">
+            <ul id="styleOptions" title="switch styling">
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="theme-color"
+                  class="theme-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="pink"
+                  class="pink-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="violet"
+                  class="violet-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="crimson"
+                  class="crimson-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="orange"
+                  class="orange-color"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end switcher menu -->
+
+      <!--Search Popup-->
+      <div id="search-popup" class="search-popup">
+        <div class="popup-inner">
+          <div class="upper-box clearfix">
+            <figure class="logo-box pull-left">
+              <a href="index.html"
+                ><img src="assets/images/full_logo.jpg" alt=""
+              /></a>
+            </figure>
+            <div class="close-search pull-right">
+              <span class="far fa-times"></span>
+            </div>
+          </div>
+          <div class="overlay-layer"></div>
+          <div class="auto-container">
+            <div class="search-form">
+              <form method="post" action="index.html">
+                <div class="form-group">
+                  <fieldset>
+                    <input
+                      type="search"
+                      class="form-control"
+                      name="search-input"
+                      value=""
+                      placeholder="Type your keyword and hit"
+                      required
+                    />
+                    <button type="submit"><i class="far fa-search"></i></button>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main header -->
+      <header class="main-header">
+        <!-- header-top -->
+        <div class="header-top">
+          <div class="top-inner">
+            <div class="top-left">
+              <ul class="info-list clearfix">
+                <li>
+                  <i class="icon-2"></i>Email:
+                  <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                  <i class="icon-3"></i>Address:
+                  <span>8302 Preston Rd. Maine 9380</span>
+                </li>
+              </ul>
+            </div>
+            <div class="top-right">
+              <ul class="social-links clearfix">
+                <li>
+                  <a href="index.html"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="index.html"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="index.html"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- header-lower -->
+        <div class="header-lower">
+          <div class="outer-box">
+            <div class="logo-box">
+              <figure class="logo">
+                <a href="index.html"
+                  ><img src="assets/images/full_logo.jpg" alt=""
+                /></a>
+              </figure>
+            </div>
+            <div class="menu-area">
+              <!--Mobile Navigation Toggler-->
+              <div class="mobile-nav-toggler">
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+              </div>
+              <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                <div
+                  class="collapse navbar-collapse show clearfix"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navigation clearfix">
+                    <li class>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="regranulacja.html">Regranulacja</a>
+                    </li>
+                    <li>
+                      <a href="wtryskownia.html">Wtryskownia</a>
+                    </li>
+                    <li>
+                      <a href="about.html">O nas</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">kontakt</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <ul class="menu-right-content">
+                <li class="support-box">
+                  <i class="icon-4"></i>
+                  <a href="tel:+48601428293">+48 601 428 293</a>
+                </li>
+                <li class="btn-box">
+                  <a href="contact.html" class="theme-btn btn-one"
+                    ><span>Skontaktuj się!</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--sticky Header-->
+        <div class="sticky-header">
+          <div class="outer-container">
+            <div class="outer-box">
+              <div class="logo-box">
+                <figure class="logo">
+                  <a href="index.html"
+                    ><img src="assets/images/full_logo.jpg" alt=""
+                  /></a>
+                </figure>
+              </div>
+              <div class="menu-area">
+                <nav class="main-menu clearfix">
+                  <!--Keep This Empty / Menu will come through Javascript-->
+                </nav>
+                <ul class="menu-right-content">
+                  <li class="support-box">
+                    <i class="icon-4"></i>
+                    <a href="tel:+48601428293">+48 601 428 293</a>
+                  </li>
+
+                  <li class="btn-box">
+                    <a href="contact.html" class="theme-btn btn-one"
+                      ><span>Skontaktuj się!</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- main-header end -->
+
+      <!-- Mobile Menu  -->
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+
+        <nav class="menu-box">
+          <div class="nav-logo">
+            <a href="index.html"
+              ><img src="assets/images/logo-2.png" alt="" title=""
+            /></a>
+          </div>
+          <div class="menu-outer">
+            <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+          </div>
+          <div class="contact-info">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>Chicago 12, Melborne City, USA</li>
+              <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul class="clearfix">
+              <li>
+                <a href="index.html"><span class="fab fa-twitter"></span></a>
+              </li>
+              <li>
+                <a href="index.html"
+                  ><span class="fab fa-facebook-square"></span
+                ></a>
+              </li>
+              <li>
+                <a href="index.html"
+                  ><span class="fab fa-pinterest-p"></span
+                ></a>
+              </li>
+              <li>
+                <a href="index.html"><span class="fab fa-instagram"></span></a>
+              </li>
+              <li>
+                <a href="index.html"><span class="fab fa-youtube"></span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- End Mobile Menu -->
+
+      <!-- contact-section -->
+      <section class="contact-section pt_150 pb_150">
+        <div class="auto-container">
+          <div class="row clearfix">
+            <div class="col-lg-4 col-md-12 col-sm-12 content-column">
+              <div class="content-box mr_70">
+                <div class="sec-title mb_45">
+                  <span class="sub-title">"Znajdź Nasze Biuro</span>
+                  <h2>Skontaktuj się z nami</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Aliquet amet
+                    elementum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 form-column">
+              <div class="form-inner">
+                <ul class="info-list clearfix">
+                  <li class="mb-4">
+                    <!-- <div class="icon"><i class="icon-2"></i></div> -->
+                    <h4>BIURO</h4>
+                    <p>+48 662 340 567</p>
+                    <p>biuro@ekobasketrecykling.pl</p>
+                  </li>
+
+                  <li class="mb-4">
+                    <!-- <div class="icon"><i class="icon-2"></i></div> -->
+                    <h4>PRZEDSTAWICIEL HANDLOWY</h4>
+                    <p>+48 668 020 439</p>
+                    <p>maksym.kulon@useagain.pl</p>
+                  </li>
+
+                  <li class="mb-4">
+                    <!-- <div class="icon"><i class="icon-43"></i></div> -->
+                    <h4>SIEDZIBA</h4>
+                    <p>ul. Goplan 12</p>
+                    <p>52-340 Wrocław</p>
+                    <p>ZAKŁAD PRODUKCYJNY</p>
+                    <p>ul. Polna 14</p>
+                    <p>55-110 Prusice k/Wrocławia</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact-section end -->
+
+      <!-- google-map-section -->
+      <section class="google-map-section">
+        <div class="map-inner">
+          <div
+            class="google-map"
+            id="contact-google-map"
+            data-map-lat="40.712776"
+            data-map-lng="-74.005974"
+            data-icon-path="assets/images/icons/map-marker.png"
+            data-map-title="Brooklyn, New York, United Kingdom"
+            data-map-zoom="12"
+            data-markers='{
+                        "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/icons/map-marker.png"]
+                    }'
+          ></div>
+        </div>
+      </section>
+      <!-- google-map-section end -->
+
+      <!-- main-footer -->
+      <footer class="main-footer">
+        <div
+          class="pattern-layer"
+          style="background-image: url(assets/images/shape/shape-13.png)"
+        ></div>
+        <div class="footer-top">
+          <div class="auto-container">
+            <div class="row clearfix">
+              <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                <div class="footer-widget links-widget ml_40">
+                  <div class="widget-title">
+                    <h3>Linki</h3>
+                  </div>
+                  <div class="widget-content">
+                    <ul class="links-list clearfix">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="regranulacja.html">Regranulacja</a></li>
+                      <li><a href="wtryskownia.html">Wtryskownia</a></li>
+                      <li><a href="about.html">O nas</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                <div class="footer-widget schedule-widget ml_60 mr_70">
+                  <div class="widget-title">
+                    <h3>Godziny pracy</h3>
+                  </div>
+                  <div class="widget-content">
+                    <ul class="schedule-list clearfix">
+                      <li>Poniedziałek - Piątek: 9:00 - 18:00</li>
+                      <li>Sobota - Niedziela: 8:00 - 16:00</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div class="footer-widget contact-widget">
+                  <div class="widget-title">
+                    <h3>zostańmy w kontakcie</h3>
+                  </div>
+                  <div class="widget-content">
+                    <ul class="info-list mb_30 clearfix">
+                      <li>
+                        <i class="icon-3"></i>Ul. Wyścigowa 50,<br />53-012
+                        Wrocław
+                      </li>
+                      <li>
+                        <i class="icon-2"></i>e-mail:
+                        <a href="mailto:sekretariat@ekobasket.pl"
+                          >sekretariat@ekobasket.pl</a
+                        >
+                      </li>
+                      <li>
+                        <i class="icon-4"></i>tel.:
+                        <a href="tel:+48601428293">+48 601 428 293</a>
+                      </li>
+                    </ul>
+                    <ul class="social-links clearfix">
+                      <li>
+                        <a href="index-3.html"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="index-3.html"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="index-3.html"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="index-3.html"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom centred">
+          <div class="auto-container">
+            <div class="copyright">
+              <p>
+                Copyright 2023 by <a href="index.html">MediaHunters</a> All
+                Right Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- main-footer -->
+
+      <!--Scroll to top-->
+      <div class="scroll-to-top">
+        <div>
+          <div class="scroll-top-inner">
+            <div class="scroll-bar">
+              <div class="bar-inner"></div>
+            </div>
+            <div class="scroll-bar-text">Go To Top</div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll to top end -->
+    </div>
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jQuery.style.switcher.min.js"></script>
+
+    <!-- map script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+    <script src="assets/js/gmaps.js"></script>
+    <script src="assets/js/map-helper.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+  <!-- End of .page_wrapper -->
+</html>
