@@ -1,4 +1,4 @@
-.list-deco > ul, .list-deco > li {
+.list-deco > ul, .list-deco > ul > li {
     list-style-type: disc;
 }
 
