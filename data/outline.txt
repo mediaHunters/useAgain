@@ -8,7 +8,7 @@ O NAS:
 Opis firmy oraz historia firmy z ekobasket.pl
 
 REGRANULACJA:
-Opis regranulacji pochodzący z broszury, uzupełniony o informacje ze strony useagain.pl. 
+Opis regranulacji pochodzący z broszury, uzupełniony o informacje ze strony EBAS.pl. 
 Na dole podstrony znajdują się pięć pionowych pól dla różnych rodzajów tworzyw:
 
 1. PCABS
