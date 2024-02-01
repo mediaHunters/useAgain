@@ -1,6 +1,3 @@
-
-
-
 /* color */
 
 .main-menu .navigation > li.current > a,
@@ -50,13 +47,9 @@
 .blog-sidebar .search-widget .search-form .form-group button,
 .blog-sidebar .post-widget .post h5 a:hover,
 .blog-details-content blockquote .icon-box,
-.contact-section .content-box .info-list li .icon
-
-{
+.contact-section .content-box .info-list li .icon {
   color: var(--crimson-color) !important;
 }
-
-
 
 /** background **/
 
@@ -103,14 +96,9 @@ button.ltr,
 .blog-details-content blockquote h4:before,
 .blog-details-content .content-one .tags-list li a:hover,
 .blog-details-content .author-box .social-links li a:hover,
-.blog-details-content .comment-box .comment .reply-btn:hover
-
-{
+.blog-details-content .comment-box .comment .reply-btn:hover {
   background: var(--crimson-color) !important;
 }
-
-
-
 
 /** border-color **/
 
@@ -130,8 +118,6 @@ button.ltr,
 .pagination li a:hover,
 .pagination li a.current,
 .blog-sidebar .search-widget .search-form .form-group input:focus,
-.blog-details-content .comment-box .comment .reply-btn:hover
-
-{
+.blog-details-content .comment-box .comment .reply-btn:hover {
   border-color: var(--crimson-color) !important;
 }

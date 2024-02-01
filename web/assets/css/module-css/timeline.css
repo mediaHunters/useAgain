@@ -1,6 +1,6 @@
 :root {
-  --theme-color: #3A9E1E;
-  --secondary-color: #0E1D40;
+  --theme-color: #3a9e1e;
+  --secondary-color: #0e1d40;
 }
 
 .timeline {
@@ -33,7 +33,7 @@
 }
 
 .timeline__event:nth-child(2n + 1) .timeline__event__icon::before {
-  content: "";
+  content: '';
   width: 2px;
   height: 100%;
   background: var(--theme-color);
@@ -47,7 +47,7 @@
 }
 
 .timeline__event:nth-child(2n + 1) .timeline__event__icon::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 2px;
   background: var(--theme-color);
@@ -71,7 +71,10 @@
 
 .timeline__event__content {
   padding: 20px;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  box-shadow:
+    0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   background: #fff;
   width: calc(40vw - 84px);
   border-radius: 0 6px 6px 0;
@@ -101,7 +104,10 @@
   background: var(--theme-color);
   border-radius: 100%;
   width: 40px;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  box-shadow:
+    0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   padding: 40px;
   height: 40px;
   position: relative;
@@ -112,7 +118,7 @@
 }
 
 .timeline__event__icon::before {
-  content: "";
+  content: '';
   width: 2px;
   height: 100%;
   background: var(--theme-color);
@@ -125,7 +131,7 @@
 }
 
 .timeline__event__icon::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 2px;
   background: var(--theme-color);

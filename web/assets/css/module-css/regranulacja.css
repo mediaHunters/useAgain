@@ -1,7 +1,9 @@
-.list-deco > ul, .list-deco > ul > li {
-    list-style-type: disc;
+.list-deco > ul,
+.list-deco > ul > li {
+  list-style-type: disc;
 }
 
-.list-deco > ol, .list-deco > ul {
-    padding-left: 2rem;
+.list-deco > ol,
+.list-deco > ul {
+  padding-left: 2rem;
 }

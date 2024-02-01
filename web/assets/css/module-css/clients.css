@@ -1,11 +1,10 @@
-
 /** clients-section **/
 
-.clients-section{
+.clients-section {
   position: relative;
 }
 
-.clients-section .pattern-layer{
+.clients-section .pattern-layer {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -16,7 +15,7 @@
   background-position: center;
 }
 
-.clients-section .clients-logo{
+.clients-section .clients-logo {
   position: relative;
   display: block;
   background: rgba(255, 255, 255, 0.4);
@@ -26,55 +25,11 @@
   transition: all 500ms ease;
 }
 
-.clients-section .clients-logo:hover{
+.clients-section .clients-logo:hover {
   background: #fff;
 }
 
-.clients-section .clients-logo a{
+.clients-section .clients-logo a {
   position: relative;
   display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

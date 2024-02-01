@@ -1,13 +1,12 @@
-
 /** order-service **/
 
-.order-service{
+.order-service {
   position: relative;
   padding: 63px 0px 80px 0px;
-  background-color: #ECFEF4;
+  background-color: #ecfef4;
 }
 
-.order-service .pattern-layer{
+.order-service .pattern-layer {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -18,13 +17,13 @@
   background-position: center;
 }
 
-.order-service .text-box{
+.order-service .text-box {
   position: relative;
   display: block;
   margin-bottom: 15px;
 }
 
-.order-service .text-box h2{
+.order-service .text-box h2 {
   position: relative;
   display: block;
   font-size: 50px;
@@ -33,16 +32,16 @@
   margin-bottom: 37px;
 }
 
-.order-service .text-box p{
+.order-service .text-box p {
   position: relative;
   display: inline-block;
   font-size: 15px;
   line-height: 22px;
-  color: #101A30;
+  color: #101a30;
   padding-right: 35px;
 }
 
-.order-service .text-box p .shape{
+.order-service .text-box p .shape {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -52,7 +51,7 @@
   border: 1px solid var(--theme-color);
 }
 
-.order-service .text-box p .shape:before{
+.order-service .text-box p .shape:before {
   position: absolute;
   content: '';
   background: var(--theme-color);
@@ -62,7 +61,7 @@
   top: 5px;
 }
 
-.order-service .text-box p .shape:after{
+.order-service .text-box p .shape:after {
   position: absolute;
   content: '';
   background: var(--theme-color);
@@ -72,32 +71,32 @@
   top: 10px;
 }
 
-.order-service .form-inner form{
+.order-service .form-inner form {
   position: relative;
   margin: 0px 5px;
 }
 
-.order-service .form-inner form .form-group{
+.order-service .form-inner form .form-group {
   position: relative;
   padding: 0px 10px;
 }
 
 .order-service .form-inner form .form-group input[type='text'],
-.order-service .form-inner form .form-group .nice-select{
+.order-service .form-inner form .form-group .nice-select {
   position: relative;
   display: block;
   width: 100%;
   height: 60px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   font-size: 15px;
-  color: #101A30;
+  color: #101a30;
   padding: 10px 20px;
   border-radius: 5px;
   background: transparent;
   transition: all 500ms ease;
 }
 
-.order-service .form-inner form .form-group .nice-select:before{
+.order-service .form-inner form .form-group .nice-select:before {
   position: absolute;
   content: '\e921';
   font-family: 'icomoon';
@@ -108,54 +107,10 @@
 }
 
 .order-service .form-inner form .form-group .theme-btn,
-.order-service .form-inner form .form-group .theme-btn span{
+.order-service .form-inner form .form-group .theme-btn span {
   width: 100%;
 }
 
-.order-service .form-inner form .form-group input:focus{
+.order-service .form-inner form .form-group input:focus {
   border-color: var(--theme-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

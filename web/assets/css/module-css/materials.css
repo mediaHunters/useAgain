@@ -1,11 +1,10 @@
-
 /** materials-section **/
 
-.materials-section{
+.materials-section {
   position: relative;
 }
 
-.materials-section .inner-container{
+.materials-section .inner-container {
   position: relative;
   display: block;
   padding: 63px 100px 67px 100px;
@@ -16,21 +15,21 @@
   overflow: hidden;
 }
 
-.materials-section .list-style-one li{
+.materials-section .list-style-one li {
   color: #fff;
   line-height: 28px;
   margin-bottom: 15px;
 }
 
-.materials-section .list-style-one li:last-child{
+.materials-section .list-style-one li:last-child {
   margin-bottom: 0px;
 }
 
-.materials-section .list-style-one li:before{
+.materials-section .list-style-one li:before {
   background: rgba(255, 255, 255, 0.2) !important;
 }
 
-.materials-section .inner-container .shape .shape-1{
+.materials-section .inner-container .shape .shape-1 {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -42,7 +41,7 @@
   opacity: 0.5;
 }
 
-.materials-section .inner-container .shape .shape-2{
+.materials-section .inner-container .shape .shape-2 {
   position: absolute;
   left: 47%;
   top: 34%;
@@ -51,53 +50,9 @@
   background-repeat: no-repeat;
 }
 
-.materials-section.alternat-2 .inner-container{
+.materials-section.alternat-2 .inner-container {
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 0px;
   border-radius: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

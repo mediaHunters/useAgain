@@ -1,54 +1,53 @@
-
 /** testimonial-section **/
 
-.testimonial-section{
+.testimonial-section {
   position: relative;
 }
 
-.testimonial-section .owl-carousel .owl-stage-outer{
+.testimonial-section .owl-carousel .owl-stage-outer {
   overflow: visible;
 }
 
-.testimonial-section .owl-carousel .owl-stage-outer .owl-item{
+.testimonial-section .owl-carousel .owl-stage-outer .owl-item {
   opacity: 0;
 }
 
-.testimonial-section .owl-carousel .owl-stage-outer .owl-item.active{
+.testimonial-section .owl-carousel .owl-stage-outer .owl-item.active {
   opacity: 1;
 }
 
-.testimonial-block-one .inner-box{
+.testimonial-block-one .inner-box {
   position: relative;
   display: block;
 }
 
-.testimonial-block-one .inner-box .text-box{
+.testimonial-block-one .inner-box .text-box {
   position: relative;
   display: block;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 35px 40px 0px 40px;
   margin-bottom: 63px;
 }
 
-.testimonial-block-one .inner-box .text-box .rating li{
+.testimonial-block-one .inner-box .text-box .rating li {
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: #FF8A00;
+  color: #ff8a00;
   margin: 0px 1px;
 }
 
-.testimonial-block-one .inner-box .text-box .rating{
+.testimonial-block-one .inner-box .text-box .rating {
   margin-bottom: 15px;
 }
 
-.testimonial-block-one .inner-box .text-box p{
+.testimonial-block-one .inner-box .text-box p {
   margin-bottom: 30px;
 }
 
-.testimonial-block-one .inner-box .thumb-box{
+.testimonial-block-one .inner-box .thumb-box {
   position: relative;
   display: inline-block;
   width: 80px;
@@ -57,12 +56,12 @@
   margin-bottom: -49px;
 }
 
-.testimonial-block-one .inner-box .thumb-box img{
+.testimonial-block-one .inner-box .thumb-box img {
   width: 100%;
   border-radius: 50%;
 }
 
-.testimonial-block-one .inner-box .author-box h3{
+.testimonial-block-one .inner-box .author-box h3 {
   display: block;
   font-size: 24px;
   line-height: 30px;
@@ -70,68 +69,24 @@
   margin-bottom: 6px;
 }
 
-.testimonial-block-one .inner-box .author-box .designation{
+.testimonial-block-one .inner-box .author-box .designation {
   position: relative;
   display: block;
 }
 
-.testimonial-section .owl-nav{
+.testimonial-section .owl-nav {
   margin-top: 50px;
 }
 
-.testimonial-page-section .testimonial-block-one .inner-box .thumb-box{
+.testimonial-page-section .testimonial-block-one .inner-box .thumb-box {
   margin-bottom: -27px;
   top: 10px;
 }
 
-.testimonial-page-section .testimonial-block-one .inner-box .text-box p{
+.testimonial-page-section .testimonial-block-one .inner-box .text-box p {
   margin-bottom: 20px;
 }
 
-.testimonial-page-section .testimonial-block-one .inner-box{
+.testimonial-page-section .testimonial-block-one .inner-box {
   margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

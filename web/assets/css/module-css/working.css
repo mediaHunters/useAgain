@@ -1,20 +1,18 @@
-
-
 /** working-section **/
 
-.working-section{
+.working-section {
   position: relative;
-  background: #CDF1DD;
+  background: #cdf1dd;
   padding: 142px 0px;
 }
 
-.working-block-one .inner-box{
+.working-block-one .inner-box {
   position: relative;
   max-width: 210px;
   margin: 0 auto;
 }
 
-.working-block-one .inner-box .icon-box{
+.working-block-one .inner-box .icon-box {
   position: relative;
   display: inline-block;
   width: 180px;
@@ -30,25 +28,25 @@
   transition: all 500ms ease;
 }
 
-.working-block-one .inner-box .icon-box:before{
+.working-block-one .inner-box .icon-box:before {
   position: absolute;
   content: '';
-  background: #101A30;
+  background: #101a30;
   width: 100%;
   height: 100%;
   left: 0px;
   top: 0px;
   border-radius: 50%;
-  transform: scale(0,0);
+  transform: scale(0, 0);
   z-index: -1;
   transition: all 500ms ease;
 }
 
-.working-block-one .inner-box:hover .icon-box:before{
-  transform: scale(1,1);
+.working-block-one .inner-box:hover .icon-box:before {
+  transform: scale(1, 1);
 }
 
-.working-block-one .inner-box .icon-box .count-text{
+.working-block-one .inner-box .icon-box .count-text {
   position: absolute;
   top: -10px;
   right: -5px;
@@ -60,16 +58,16 @@
   text-align: center;
   border-radius: 50%;
   font-size: 20px;
-  color: #101A30;
+  color: #101a30;
   font-weight: 600;
   transition: all 500ms ease;
 }
 
-.working-block-one .inner-box:hover .icon-box .count-text{
+.working-block-one .inner-box:hover .icon-box .count-text {
   color: #fff;
 }
 
-.working-block-one .inner-box h3{
+.working-block-one .inner-box h3 {
   display: block;
   font-size: 24px;
   line-height: 30px;
@@ -77,14 +75,14 @@
   margin-bottom: 15px;
 }
 
-.working-section .content-inner{
+.working-section .content-inner {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.working-block-one .inner-box .arrow-shape{
+.working-block-one .inner-box .arrow-shape {
   position: absolute;
   top: 74px;
   right: -108px;
@@ -93,7 +91,7 @@
   background-repeat: no-repeat;
 }
 
-.working-section .pattern-layer{
+.working-section .pattern-layer {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -103,45 +101,3 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,11 +1,10 @@
-
 /** team-section **/
 
-.team-section{
+.team-section {
   position: relative;
 }
 
-.team-block-one .inner-box{
+.team-block-one .inner-box {
   position: relative;
   display: block;
   background: #fff;
@@ -13,30 +12,30 @@
   box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.1);
 }
 
-.team-block-one .inner-box .image-box{
+.team-block-one .inner-box .image-box {
   position: relative;
   display: block;
   overflow: hidden;
   border-radius: 20px 20px 0px 0px;
 }
 
-.team-block-one .inner-box .image-box img{
+.team-block-one .inner-box .image-box img {
   width: 100%;
   border-radius: 20px 20px 0px 0px;
   transition: all 500ms ease;
 }
 
-.team-block-one .inner-box:hover .image-box img{
+.team-block-one .inner-box:hover .image-box img {
   transform: scale(1.05);
 }
 
-.team-block-one .inner-box .lower-content{
+.team-block-one .inner-box .lower-content {
   position: relative;
   display: block;
   padding: 34px 30px 111px 30px;
 }
 
-.team-block-one .inner-box .lower-content h3{
+.team-block-one .inner-box .lower-content h3 {
   position: relative;
   display: block;
   font-size: 24px;
@@ -45,16 +44,16 @@
   margin-bottom: 7px;
 }
 
-.team-block-one .inner-box .lower-content h3 a{
+.team-block-one .inner-box .lower-content h3 a {
   display: inline-block;
-  color: #101A30;
+  color: #101a30;
 }
 
-.team-block-one .inner-box .lower-content h3 a:hover{
+.team-block-one .inner-box .lower-content h3 a:hover {
   color: var(--theme-color);
 }
 
-.team-block-one .inner-box .lower-content .designation{
+.team-block-one .inner-box .lower-content .designation {
   position: relative;
   display: block;
   font-size: 16px;
@@ -63,20 +62,20 @@
   color: var(--theme-color);
 }
 
-.team-block-one .inner-box .lower-content .share-box{
+.team-block-one .inner-box .lower-content .share-box {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 40px;
 }
 
-.team-block-one .inner-box .lower-content .share-box .share-icon{
+.team-block-one .inner-box .lower-content .share-box .share-icon {
   position: relative;
   display: inline-block;
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 50%;
@@ -86,95 +85,53 @@
   transition: all 500ms ease;
 }
 
-.team-block-one .inner-box .lower-content .share-box:hover .share-icon{
-  background: #101A30;
+.team-block-one .inner-box .lower-content .share-box:hover .share-icon {
+  background: #101a30;
   opacity: 0;
 }
 
-.team-block-one .inner-box .lower-content .share-box .social-links{
+.team-block-one .inner-box .lower-content .share-box .social-links {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) scale(0,0);
+  transform: translateX(-50%) scale(0, 0);
   top: 0px;
   width: 180px;
   transition: all 500ms ease;
 }
 
-.team-block-one .inner-box .lower-content .share-box:hover .social-links{
-  transform: translateX(-50%) scale(1,1);
+.team-block-one .inner-box .lower-content .share-box:hover .social-links {
+  transform: translateX(-50%) scale(1, 1);
 }
 
-.team-block-one .inner-box .lower-content .share-box .social-links li{
+.team-block-one .inner-box .lower-content .share-box .social-links li {
   position: relative;
   display: inline-block;
   margin: 0px 3px;
 }
 
-.team-block-one .inner-box .lower-content .share-box .social-links li a{
+.team-block-one .inner-box .lower-content .share-box .social-links li a {
   position: relative;
   display: inline-block;
   width: 50px;
   height: 50px;
   line-height: 50px;
   font-size: 16px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.2);
-  color: #101A30;
+  color: #101a30;
   text-align: center;
   border-radius: 50%;
 }
 
-.team-block-one .inner-box .lower-content .share-box .social-links li a:hover{
+.team-block-one .inner-box .lower-content .share-box .social-links li a:hover {
   color: #fff;
   background: var(--theme-color);
 }
 
-.team-section.alternat-2 .team-block-one .inner-box .lower-content{
+.team-section.alternat-2 .team-block-one .inner-box .lower-content {
   padding-bottom: 32px;
 }
 
-.team-section.alternat-2 .team-block-one .inner-box .lower-content .share-box{
+.team-section.alternat-2 .team-block-one .inner-box .lower-content .share-box {
   bottom: -25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

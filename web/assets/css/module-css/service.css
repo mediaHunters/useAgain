@@ -1,11 +1,10 @@
-
 /** service-section **/
 
-.service-section{
+.service-section {
   position: relative;
 }
 
-.service-block-one .inner-box{
+.service-block-one .inner-box {
   position: relative;
   display: block;
   background: #fff;
@@ -14,30 +13,30 @@
   border-radius: 10px 10px 100px 100px;
 }
 
-.service-block-one .inner-box .image-box{
+.service-block-one .inner-box .image-box {
   position: relative;
   display: block;
   overflow: hidden;
   border-radius: 10px 10px 100px 100px;
 }
 
-.service-block-one .inner-box .image-box img{
+.service-block-one .inner-box .image-box img {
   width: 100%;
   border-radius: 10px 10px 100px 100px;
   transition: all 500ms ease;
 }
 
-.service-block-one .inner-box:hover .image-box img{
+.service-block-one .inner-box:hover .image-box img {
   transform: scale(1.05);
 }
 
-.service-block-one .inner-box .lower-content{
+.service-block-one .inner-box .lower-content {
   position: relative;
   display: block;
   padding: 80px 10px 62px 10px;
 }
 
-.service-block-one .inner-box .lower-content .icon-box{
+.service-block-one .inner-box .lower-content .icon-box {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -50,7 +49,7 @@
   color: var(--theme-color);
 }
 
-.service-block-one .inner-box .lower-content .icon-box .icon-bg{
+.service-block-one .inner-box .lower-content .icon-box .icon-bg {
   position: absolute;
   left: -36px;
   top: -3px;
@@ -60,17 +59,17 @@
   z-index: -1;
 }
 
-.service-block-one .inner-box .lower-content .icon-box .icon{
+.service-block-one .inner-box .lower-content .icon-box .icon {
   position: relative;
   display: inline-block;
   transition: all 500ms ease;
 }
 
-.service-block-one .inner-box:hover .lower-content .icon-box .icon{
+.service-block-one .inner-box:hover .lower-content .icon-box .icon {
   transform: rotateY(-180deg);
 }
 
-.service-block-one .inner-box .lower-content h3{
+.service-block-one .inner-box .lower-content h3 {
   display: block;
   font-size: 24px;
   line-height: 30px;
@@ -78,27 +77,27 @@
   margin-bottom: 12px;
 }
 
-.service-block-one .inner-box .lower-content h3 a{
+.service-block-one .inner-box .lower-content h3 a {
   display: inline-block;
-  color: #101A30;
+  color: #101a30;
 }
 
-.service-block-one .inner-box .lower-content h3 a:hover{
+.service-block-one .inner-box .lower-content h3 a:hover {
   color: var(--theme-color);
 }
 
-.service-block-one .inner-box .lower-content p{
-  color: #101A30;
+.service-block-one .inner-box .lower-content p {
+  color: #101a30;
 }
 
-.service-block-one .inner-box .lower-content .link{
+.service-block-one .inner-box .lower-content .link {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: -35px;
 }
 
-.service-block-one .inner-box .lower-content .link a{
+.service-block-one .inner-box .lower-content .link a {
   position: relative;
   display: inline-block;
   width: 70px;
@@ -108,16 +107,16 @@
   text-align: center;
   font-size: 20px;
   border-radius: 50%;
-  color: #101A30;
+  color: #101a30;
   box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.15);
 }
 
-.service-block-one .inner-box .lower-content .link a:hover{
+.service-block-one .inner-box .lower-content .link a:hover {
   color: #fff;
   background: var(--theme-color);
 }
 
-.service-section .pattern-layer{
+.service-section .pattern-layer {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -127,15 +126,14 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 /** service-style-two **/
 
-.service-style-two{
+.service-style-two {
   padding: 142px 0px;
 }
 
-.service-style-two .pattern-layer{
+.service-style-two .pattern-layer {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -146,12 +144,12 @@
   background-position: center;
 }
 
-.service-block-two .inner-box{
+.service-block-two .inner-box {
   position: relative;
   display: block;
 }
 
-.service-block-two .inner-box .icon-box{
+.service-block-two .inner-box .icon-box {
   position: relative;
   display: inline-block;
   width: 128px;
@@ -164,11 +162,11 @@
   margin-bottom: 23px;
 }
 
-.left-column .service-block-two:first-child .inner-box .icon-box{
+.left-column .service-block-two:first-child .inner-box .icon-box {
   font-size: 35px;
 }
 
-.service-block-two .inner-box .icon-box .icon-shape{
+.service-block-two .inner-box .icon-box .icon-shape {
   position: absolute;
   left: -37px;
   top: -3px;
@@ -178,16 +176,16 @@
   z-index: -1;
 }
 
-.service-block-two .inner-box .icon-box .icon{
+.service-block-two .inner-box .icon-box .icon {
   position: relative;
   transition: all 500ms ease;
 }
 
-.service-block-two .inner-box:hover .icon-box .icon{
+.service-block-two .inner-box:hover .icon-box .icon {
   transform: rotateY(-180deg);
 }
 
-.service-block-two .inner-box h3{
+.service-block-two .inner-box h3 {
   position: relative;
   display: block;
   font-size: 24px;
@@ -196,40 +194,40 @@
   margin-bottom: 16px;
 }
 
-.service-block-two .inner-box h3 a{
+.service-block-two .inner-box h3 a {
   position: relative;
   display: inline-block;
-  color: #101A30;
+  color: #101a30;
   z-index: 1;
 }
 
-.service-block-two .inner-box h3 a:hover{
+.service-block-two .inner-box h3 a:hover {
   color: var(--theme-color);
 }
 
-.service-block-two .inner-box{
+.service-block-two .inner-box {
   margin-bottom: 60px;
 }
 
-.service-block-two:last-child .inner-box{
+.service-block-two:last-child .inner-box {
   margin-bottom: 0px;
 }
 
-.service-style-two .image-box{
+.service-style-two .image-box {
   position: relative;
   display: block;
   padding: 0px 17px;
 }
 
-.service-style-two .image-box img{
+.service-style-two .image-box img {
   width: 100%;
 }
 
-.service-style-two .image-box .image{
+.service-style-two .image-box .image {
   position: relative;
 }
 
-.service-style-two .image-box .image-shape .shape-1{
+.service-style-two .image-box .image-shape .shape-1 {
   position: absolute;
   top: -73px;
   right: -40px;
@@ -240,7 +238,7 @@
   animation: zoom-fade 4s infinite linear;
 }
 
-.service-style-two .image-box .image-shape .shape-2{
+.service-style-two .image-box .image-shape .shape-2 {
   position: absolute;
   bottom: 0px;
   left: -33px;
@@ -250,44 +248,3 @@
   -webkit-animation: zoom-fade 4s infinite linear;
   animation: zoom-fade 4s infinite linear;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
