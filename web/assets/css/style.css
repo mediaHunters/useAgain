@@ -888,7 +888,13 @@ img {
 }
 
 .main-header .logo-box .logo {
-  max-width: 175px;
+  max-width: 400px;
+  align-items: center;
+  display: flex;
+}
+
+.main-header .logo-box .logo a:first-child {
+  margin-right: 30px;
 }
 
 .main-header .logo-box .logo img {
@@ -1013,6 +1019,7 @@ img {
 .main-header .logo-box {
   position: relative;
   padding: 18px 0px;
+  display: flex;
 }
 
 .main-header .outer-box {
